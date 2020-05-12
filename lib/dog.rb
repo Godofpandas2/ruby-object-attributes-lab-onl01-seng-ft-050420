@@ -1,11 +1,3 @@
 class Dog
-  def name(namie)
-    @name = name
-  end
-
-  def name=(namie)
-    @name = name
-  end
-
-
+  attr_accessor :name
 end
